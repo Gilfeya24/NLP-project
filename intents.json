@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening",
+        "Hey trainer", "Hi coach", "Hello there"
+      ],
+      "responses": [
+        "Hello! Ready for your workout?",
+        "Hey! Let's get fit 💪",
+        "Hi there! How can I help with your fitness today?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you", "Goodbye", "Catch you later",
+        "I am leaving", "See you tomorrow"
+      ],
+      "responses": [
+        "Goodbye! Stay consistent 💪",
+        "See you next workout!",
+        "Take care and keep training!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful",
+        "Thanks coach", "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime! Keep pushing 💪",
+        "Happy to help!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "workout_plan",
+      "patterns": [
+        "Give me a workout plan",
+        "What should I train today",
+        "Suggest workout",
+        "Daily workout routine",
+        "Workout ideas"
+      ],
+      "responses": [
+        "Start with warm-up, then do push-ups, squats, and planks.",
+        "Try a full-body workout: squats, push-ups, lunges, and core.",
+        "Focus on strength: bench press, deadlift, and squats."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How to lose weight",
+        "Weight loss tips",
+        "Help me lose fat",
+        "Fat loss workout",
+        "I want to reduce weight"
+      ],
+      "responses": [
+        "Focus on cardio, calorie deficit, and consistency.",
+        "Combine running, cycling, and healthy eating.",
+        "Stay consistent with workouts and eat clean."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "muscle_gain",
+      "patterns": [
+        "How to gain muscle",
+        "Build muscle",
+        "Muscle gain tips",
+        "I want bigger muscles",
+        "Strength training advice"
+      ],
+      "responses": [
+        "Lift heavy, eat protein, and rest well.",
+        "Focus on progressive overload and proper nutrition.",
+        "Train consistently and increase weights gradually."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "What should I eat",
+        "Diet plan",
+        "Healthy food",
+        "Nutrition advice",
+        "What to eat after workout"
+      ],
+      "responses": [
+        "Eat protein-rich foods like eggs, chicken, and legumes.",
+        "Balance carbs, protein, and healthy fats.",
+        "Post-workout: protein + carbs is best."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "exercise_time",
+      "patterns": [
+        "Best time to workout",
+        "When should I exercise",
+        "Morning or evening workout",
+        "Workout timing"
+      ],
+      "responses": [
+        "Morning workouts boost energy, evenings improve strength.",
+        "Choose a time you can stay consistent.",
+        "Both morning and evening are fine—consistency matters most."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "I feel lazy",
+        "Motivate me",
+        "I don't feel like working out",
+        "No motivation",
+        "Feeling tired to exercise"
+      ],
+      "responses": [
+        "Discipline beats motivation—just start 💪",
+        "Small steps every day lead to big results.",
+        "You don’t have to be perfect, just consistent!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "I don't understand",
+        "random",
+        "something else",
+        "unknown question"
+      ],
+      "responses": [
+        "I'm not sure I understand. Can you rephrase?",
+        "Please ask something related to fitness.",
+        "I can help with workouts, diet, and fitness tips!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
